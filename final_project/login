@@ -1,0 +1,2 @@
+$ curl -s -X POST http://localhost:5000/customer/login -H 'Content-Type: application/json' -d '{"username":"higor","password":"senha123"}' -c cookies.txt
+{"message":"User successfully logged in"}
